@@ -3,8 +3,22 @@ server:
 spring:
   application:
     name: zuul-server
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8081/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
