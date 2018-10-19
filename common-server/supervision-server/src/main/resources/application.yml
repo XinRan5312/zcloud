@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: supervision-server
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+server:
+  port: 8084
