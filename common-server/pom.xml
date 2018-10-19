@@ -21,6 +21,13 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <modules>
+        <module>eureka-server</module>
+        <module>supervision-server</module>
+        <module>zipkin-server</module>
+        <module>zuul-server</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

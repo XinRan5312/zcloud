@@ -3,11 +3,6 @@ server:
 spring:
   application:
     name: zuul-server
-  boot:
-    admin:
-      client:
-        url: http://localhost:8084
-
 
 eureka:
   client:

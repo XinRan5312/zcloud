@@ -7,10 +7,6 @@ eureka:
 spring:
   application:
     name: zipkin-server
-  boot:
-    admin:
-      client:
-        url: http://localhost:8084
 management:
   endpoints:
     web:
